@@ -14,13 +14,13 @@
         "skipLibCheck": true,
         "baseUrl": "./",
         "paths": {
-            "@/*": ["resources/js/src/*"]
+            "@/*": ["resources/js/*"]
         },
         "noImplicitAny": false,
         "allowJs": true,
         "types": ["@intlify/unplugin-vue-i18n/messages"]
     },
-    "include": ["resources/js/src/**/*.js", "resources/js/src/**/*.ts", "resources/js/src/**/*.d.ts", "resources/js/src/**/*.tsx", "resources/js/src/**/*.vue"],
+    "include": ["resources/js/**/*.js", "resources/js/**/*.ts", "resources/js/**/*.d.ts", "resources/js/**/*.tsx", "resources/js/**/*.vue", "resources/js/App.vue", "resources/js/app-setting.ts", "resources/js/i18n.ts", "resources/js/main.ts", "resources/js/vite-env.d.ts"],
     "references": [
         {
             "path": "./tsconfig.node.json"

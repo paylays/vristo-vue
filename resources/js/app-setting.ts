@@ -1,4 +1,4 @@
-import { $themeConfig } from '../theme.config';
+import { $themeConfig } from './theme.config';
 import { useAppStore } from '@/stores/index';
 
 export default {

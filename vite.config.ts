@@ -8,7 +8,7 @@ import laravel from "laravel-vite-plugin";
 export default defineConfig({
     plugins: [
         laravel({
-            input: ["resources/js/src/main.ts"],
+            input: ["resources/js/main.ts"],
             refresh: true,
         }),
         vue({
@@ -19,12 +19,12 @@ export default defineConfig({
             },
         }),
         VueI18nPlugin({
-            include: path.resolve("resources/js/src/locales/**"),
+            include: path.resolve("resources/js/locales/**"),
         }),
     ],
     resolve: {
         alias: {
-            "@": path.resolve("resources/js/src"),
+            "@": path.resolve("resources/js"),
         },
     },
     optimizeDeps: {

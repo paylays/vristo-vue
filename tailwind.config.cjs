@@ -10,8 +10,7 @@ const rotateX = plugin(function ({ addUtilities }) {
 module.exports = {
     content: [
         "./resources/**/*.blade.php",
-        "./resources/**/*.js",
-        "./resources/**/*.vue",
+        "./resources/js/**/*.{vue,js,ts,jsx,tsx}", 
     ],
     darkMode: "class",
     theme: {
